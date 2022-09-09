@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/background-01-port.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ===================Home=Page===================== */
+
+#home-logo-img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+
+}
+
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+
+/* ====Menu=Home=Page==== */
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #ffffff;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+}
+/* ========meals=Page========= */
+
+.meals-list a{
+text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+font-weight: bold;
+font-size: 20px;
+color: #1a1a1a;
+padding-left: 10px;
+}
+
+.meals-list-item p{
+font-size: 15px;
+font-style: italic;
+color: #4d4d4d;
+margin-top: -7px;
+padding-left: 10px;
+}
